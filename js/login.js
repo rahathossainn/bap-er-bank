@@ -14,7 +14,7 @@ document.getElementById('submit').addEventListener('click', function(){
     // donot verify email and password on the client side
     // step -4 verify email and password
     if(email === 'sontan@baap.com' && pass === 'secret'){
-        window.location.href = 'bank.html'
+        window.location.href = './bank.html'
     }
     else{
         alert('invalid  user')
